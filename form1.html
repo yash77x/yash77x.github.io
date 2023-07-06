@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: rgb(218, 132, 26);
+        }
+
+        label{
+            align-items: right;
+        }
+    </style>
+</head>
+    <body>
+        <h1>Registration Page</h1>
+        <form>
+            <table>
+                <tr>
+                  <th>Enter First Name</th>
+                  <td><input type="text" name="firstName" placeholder="firstName" required minlength="3"></td>
+                </tr>
+                <tr>
+                  <th> Enter Last Name</th>
+                  <td><input type="text" name="lastName" placeholder="lastName" required minlength="3"></td>  
+                </tr>
+                <tr>
+                    <th>Enter E-mail</th>
+                    <td><input type="text" name="email"  placeholder="Email" required></td>
+                </tr>
+                <tr>
+                    <th>Enter Password</th>
+                    <td><input type="password" name="password" placeholder="password"></td>
+                </tr>
+                
+                <tr>
+                    <th>Enter Date Of Birth</th>
+                    <td><input type="date" name="dateofbirth" placeholder="dateofbirth"></td>
+                </tr>
+                <tr>
+                    <th>Select City</th>
+                    <td>
+                        <select>
+                        <option></option>
+                        <option>Bangalore</option>
+                        <option>Hubli</option>
+                        <option>Mysore</option>
+                        <option>Gadag</option>
+                        </select>
+                        </td>
+                </tr>
+                <tr>
+                    <th> <label>Select Courses</label> </th>
+                    <td>
+                        <input type="checkbox" >HTML
+                        <input type="checkbox"> CSS
+                        <input type="checkbox"> java
+                        <input type="checkbox"> SQL
+                    </td>
+                </tr>
+                <tr>
+                    <th >Enter Age </th>
+                    <td><input type="number" name="age" placeholder="age" min="5" max="35"></td>
+                </tr>
+                <tr>
+                    <th >Enter PhoneNo</th>
+                    <td><input type="tel" name="phoneno" placeholder="phoneno" ></td>
+                </tr>
+                    <tr>
+                        <th >Upload File</th>
+                        <td><input type="file" name="file" placeholder="file" required></td>
+                    </tr>
+                    <tr>
+                        <th >Enter Address</th>
+                        <td> <textarea  cols="20" rows="3"></textarea></td>
+                    </tr>
+
+                </table>
+                    <br>
+                    <div>
+                        <button type="submit" style="color: whitesmoke; background-color: black;">Register</button>
+                        <button type="reset" style="color: white; background-color: black;">Reset</button>
+                        </div>
+                </form>
+                
+              
+        
+    </body>
+</html>
