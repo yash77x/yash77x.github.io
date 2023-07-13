@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding-left: 1%;
+    width: 150px; 
+    height: 710px;    
+    background-color: rgb(13, 120, 159);
+}
+li{
+    padding: 10px;
+    color: rgb(246, 244, 244);
+    /* display: inline-block; */
+}
+li:hover{
+    background-color: green;
+}
+
+
